@@ -288,10 +288,10 @@ footer {
     font-size: 0.95em;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
     body {
         padding: 25px;
+        background: linear-gradient(-45deg, var(--bg-color), #050505, #0d0507, #0a0409, var(--bg-color));
     }
 
     header h1 {
@@ -328,6 +328,8 @@ footer {
 @media (max-width: 480px) {
      body {
         padding: 15px;
+        /* Use mostly black gradient for mobile to match larger screen appearance */
+        background: linear-gradient(-45deg, var(--bg-color), #050505, #070305, #050305, var(--bg-color));
     }
 
     header h1 {
