@@ -1,5 +1,7 @@
 # All My Links - Personal Link-in-Bio Website
 
+![all-my-stuff](https://github.com/user-attachments/assets/4f3b1ee1-fe6b-4262-bbdd-70e73f900fd4)
+
 A clean, responsive link-in-bio website built with [HTML](https://www.freecodecamp.org/news/html-crash-course/), [CSS](https://www.freecodecamp.org/news/html-crash-course/)and [JavaScript](https://www.freecodecamp.org/news/html-crash-course/). Linktree was the inspiration, I just added some of my own vibes to it.
 
 This website is hosted on [GitHub Pages](https://pages.github.com/), which gives you a free and easy way to share your website online from your GitHub account.
