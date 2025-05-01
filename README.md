@@ -66,7 +66,7 @@ Contains all the styling including:
 #### `js/script.js`
 A simple JavaScript file ready for any future features you might want to add.
 
-## 🚀 How to Use This Project
+##  How to Use This Project
 
 This is my personal website that you can use as inspiration. Here's how:
 
@@ -172,7 +172,7 @@ Copy an existing card and change it:
 </div>
 ```
 
-## 🔄 Other Ways to Make a Links Page
+## Other Ways to Make a Links Page
 
 If you don't want to use my design, here are some other ways to create your own links page:
 
@@ -187,7 +187,7 @@ This website works well on:
 - Chrome, Firefox and Edge (latest versions)
 - iPhone and Android phones and tablets
 
-## 🔧 Technologies Used in This Project
+## Technologies Used in This Project
 
 - [HTML5](https://www.freecodecamp.org/learn/2022/responsive-web-design/) - The structure of the website
 - [CSS3](https://www.freecodecamp.org/learn/2022/responsive-web-design/) - The styling, animations, and layout
