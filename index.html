@@ -20,8 +20,8 @@
 
     <header class="fade-in">
         <h1>Luke Padiachy</h1>
-        <div class="tags-container">
-            <span class="tag">developer</span>
+        <div class="tags-container fade-in" style="margin-bottom: 24px;">
+            <span class="tag selected">developer</span>
             <span class="tag">recording artist</span>
             <span class="tag">urban uprise</span>
             <span class="tag">content writer</span>
@@ -31,81 +31,87 @@
     </header>
 
     <main>
-        <div class="section-heading fade-in">
-            <h2>Latest</h2>
-        </div>
-        <div class="spotlight-container fade-in">
-            <div class="card">
-                <div class="card-icon"><i class="fa-brands fa-github"></i></div>
-                <h3>Copilot Instructions Experiment</h3>
-                <p>A hands-on experiment in customizing GitHub Copilot using repository-level instructions, prompt files, and chat modes. Explore how Copilot adapts to different workflows and requirements by switching between branches, each demonstrating a unique customization.</p>
-                <a href="https://github.com/lukepadiachy/copilot-instructions-experiment" target="_blank" class="btn">View Repo <i class="fa-solid fa-arrow-right"></i></a>
+        <section id="latest-section">
+            <div class="section-heading fade-in">
+                <h2>Latest</h2>
             </div>
-        </div>
-        
-        <div class="section-heading fade-in">
-            <h2>Blogs</h2>
-        </div>
-        <div class="spotlight-container fade-in">
-            <div class="card">
-                <h3>Get Started with Azure SQL Database for Free</h3>
-                <p>Learn how to set up a free Azure SQL Database, connect/populate it with your ASP.NET Web API using Entity Framework Core and optimize for cloud deployment</p>
-                <a href="https://lukepadiachy.github.io/posts/azure-sql-database/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="spotlight-container fade-in">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-brands fa-github"></i></div>
+                    <h3>Copilot Instructions Experiment</h3>
+                    <p>A hands-on experiment in customizing GitHub Copilot using repository-level instructions, prompt files, and chat modes. Explore how Copilot adapts to different workflows and requirements by switching between branches, each demonstrating a unique customization.</p>
+                    <a href="https://github.com/lukepadiachy/copilot-instructions-experiment" target="_blank" class="btn">View Repo <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
-            <div class="card">
-                <h3>GitHub Pages: A Newbies Breakdown</h3>
-                <p>GitHub Pages is a free and easy way to host websites directly from a GitHub repository. This guide will break down the basics of GitHub Pages.</p>
-                <a href="https://lukepadiachy.github.io/posts/github-pages/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="card">
-                <h3>From The CLI To The IDE: C# Introduction</h3>
-                <p>An introduction to C# covering development from the command-line to the IDE and running code directly in the browser using online C# Compilers.</p>
-                <a href="https://lukepadiachy.github.io/posts/csharp-intro/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
+        </section>
 
+        <section id="blogs-section">
+            <div class="section-heading fade-in">
+                <h2>Blogs</h2>
+            </div>
+            <div class="spotlight-container fade-in">
+                <div class="card">
+                    <h3>Get Started with Azure SQL Database for Free</h3>
+                    <p>Learn how to set up a free Azure SQL Database, connect/populate it with your ASP.NET Web API using Entity Framework Core and optimize for cloud deployment</p>
+                    <a href="https://lukepadiachy.github.io/posts/azure-sql-database/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <h3>GitHub Pages: A Newbies Breakdown</h3>
+                    <p>GitHub Pages is a free and easy way to host websites directly from a GitHub repository. This guide will break down the basics of GitHub Pages.</p>
+                    <a href="https://lukepadiachy.github.io/posts/github-pages/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <h3>From The CLI To The IDE: C# Introduction</h3>
+                    <p>An introduction to C# covering development from the command-line to the IDE and running code directly in the browser using online C# Compilers.</p>
+                    <a href="https://lukepadiachy.github.io/posts/csharp-intro/" target="_blank" class="btn">Read Article <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
 
-        <div class="section-heading fade-in">
-            <h2>Music</h2>
-        </div>
-        <div class="spotlight-container fade-in" style="display: flex; flex-direction: column; gap: 32px;">
-            <div class="card" style="padding: 0; overflow: hidden;">
-                <iframe data-testid="embed-iframe" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/album/4kZAj2FYTbTtKSEsl4JeW4?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <section id="music-section">
+            <div class="section-heading fade-in">
+                <h2>Music</h2>
             </div>
-            <div class="card" style="padding: 0; overflow: hidden;">
-                <iframe data-testid="embed-iframe" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/track/3Cj93016lVC9nvipDnRstT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class="spotlight-container fade-in" style="display: flex; flex-direction: column; gap: 32px;">
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <iframe data-testid="embed-iframe" title="Spotify Album: 4kZAj2FYTbTtKSEsl4JeW4" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/album/4kZAj2FYTbTtKSEsl4JeW4?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <iframe data-testid="embed-iframe" title="Spotify Track: 3Cj93016lVC9nvipDnRstT" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/track/3Cj93016lVC9nvipDnRstT?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <iframe data-testid="embed-iframe" title="Spotify Album: 3WHLGXO1EAglXYzegGRYQ7" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/album/3WHLGXO1EAglXYzegGRYQ7?utm_source=generator&theme=0" width="100%" height="152" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
             </div>
-            <div class="card" style="padding: 0; overflow: hidden;">
-                <iframe data-testid="embed-iframe" style="border-radius:12px;width:100%;height:152px;border:none;" src="https://open.spotify.com/embed/album/3WHLGXO1EAglXYzegGRYQ7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
-        </div>
+        </section>
 
-
-        <div class="section-heading fade-in">
-            <h2>Opportunities</h2>
-        </div>
-        <div class="spotlight-container fade-in">
-            <div class="card" style="border-left: 6px solid #4CC5DC;">
-                <h3 style="color:#4CC5DC;">Urban Uprise</h3>
-                <p>A platform for musicians and artists to get their own landing page and connect with fans. Discover, support and join the movement!</p>
-                <a href="https://www.urbanuprise.co.za/select-your-artist" target="_blank" class="btn">Explore Artists <i class="fa-solid fa-arrow-right"></i></a>
+        <section id="opportunities-section">
+            <div class="section-heading fade-in">
+                <h2>Opportunities</h2>
             </div>
-            <div class="card" style="border-left: 6px solid #7A6CF0;">
-                <h3 style="color:#7A6CF0;">Curators Hub</h3>
-                <p>The heart of knowledge sharing. Different perspectives, different people. A group of individuals sharing their hustles, motivation, and passions. Join the community and share your story!</p>
-                <a href="https://www.urbanuprise.co.za/curatorshub" target="_blank" class="btn">Visit Curators Hub <i class="fa-solid fa-arrow-right"></i></a>
+            <div class="spotlight-container fade-in">
+                <div class="card" style="border-left: 6px solid #4CC5DC;" data-opportunity="urban-uprise">
+                    <h3 style="color:#4CC5DC;">Urban Uprise</h3>
+                    <p>A platform for musicians and artists to get their own landing page and connect with fans. Discover, support and join the movement!</p>
+                    <a href="https://www.urbanuprise.co.za/select-your-artist" target="_blank" class="btn">Explore Artists <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card" style="border-left: 6px solid #7A6CF0;" data-opportunity="curators-hub">
+                    <h3 style="color:#7A6CF0;">Curators Hub</h3>
+                    <p>The heart of knowledge sharing. Different perspectives, different people. A group of individuals sharing their hustles, motivation, and passions. Join the community and share your story!</p>
+                    <a href="https://www.urbanuprise.co.za/curatorshub" target="_blank" class="btn">Visit Curators Hub <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card" style="border-left: 6px solid #4CC5DC;" data-opportunity="learn-to-code">
+                    <h3 style="color:#4CC5DC;">Learn to Code</h3>
+                    <p>A resource hub for aspiring software developers! Whether you're just starting or exploring new paths, find info and resources to get you started in tech.</p>
+                    <a href="https://www.urbanuprise.co.za/learntocode" target="_blank" class="btn">Start Learning <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="card" style="border-left: 6px solid #7A6CF0;" data-opportunity="block-code-gaming">
+                    <h3 style="color:#7A6CF0;">Block Code Gaming Tutorials</h3>
+                    <p>Create your first arcade game with Microsoft MakeCode. Earn a free certification and share your creation with friends. Gamify your learning journey!</p>
+                    <a href="https://www.urbanuprise.co.za/arcade-hub-challenge" target="_blank" class="btn">Try the Challenge <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
-            <div class="card" style="border-left: 6px solid #4CC5DC;">
-                <h3 style="color:#4CC5DC;">Learn to Code</h3>
-                <p>A resource hub for aspiring software developers! Whether you're just starting or exploring new paths, find info and resources to get you started in tech.</p>
-                <a href="https://www.urbanuprise.co.za/learntocode" target="_blank" class="btn">Start Learning <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="card" style="border-left: 6px solid #7A6CF0;">
-                <h3 style="color:#7A6CF0;">Block Code Gaming Tutorials</h3>
-                <p>Create your first arcade game with Microsoft MakeCode. Earn a free certification and share your creation with friends. Gamify your learning journey!</p>
-                <a href="https://www.urbanuprise.co.za/arcade-hub-challenge" target="_blank" class="btn">Try the Challenge <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </div>
+        </section>
 
         <div class="section-heading fade-in">
             <h2>Looking for me?</h2>
@@ -124,5 +130,82 @@
     </footer>
 
     <script src="js/script.js"></script>
+</main>
+
+<script>
+// Tag-based section filtering for desktop
+document.addEventListener('DOMContentLoaded', function() {
+  const tags = document.querySelectorAll('.tags-container .tag');
+  const latest = document.getElementById('latest-section');
+  const blogs = document.getElementById('blogs-section');
+  const music = document.getElementById('music-section');
+  const opportunities = document.getElementById('opportunities-section');
+  function showAll() {
+    [latest, blogs, music, opportunities].forEach(s => s && (s.style.display = ''));
+    document.querySelectorAll('#opportunities-section .card').forEach(card => card.style.display = '');
+  }
+  tags.forEach(tag => {
+    tag.addEventListener('click', function() {
+      if(window.innerWidth <= 900) return showAll();
+      tags.forEach(t => t.classList.remove('selected'));
+      tag.classList.add('selected');
+      const text = tag.textContent.trim().toLowerCase();
+      showAll();
+      if(text === 'content writer') {
+        latest.style.display = 'none';
+        music.style.display = 'none';
+        opportunities.style.display = 'none';
+        blogs.style.display = '';
+      } else if(text === 'recording artist') {
+        latest.style.display = 'none';
+        blogs.style.display = 'none';
+        opportunities.style.display = 'none';
+        music.style.display = '';
+      } else if(text === 'developer') {
+        latest.style.display = 'none';
+        music.style.display = 'none';
+        blogs.style.display = '';
+        opportunities.style.display = '';
+        document.querySelectorAll('#opportunities-section .card').forEach(card => {
+          const opp = card.getAttribute('data-opportunity');
+          if(opp === 'learn-to-code' || opp === 'block-code-gaming') {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      } else if(text === 'tech for all') {
+        latest.style.display = 'none';
+        blogs.style.display = 'none';
+        music.style.display = 'none';
+        opportunities.style.display = '';
+        document.querySelectorAll('#opportunities-section .card').forEach(card => {
+          const opp = card.getAttribute('data-opportunity');
+          if(opp === 'learn-to-code' || opp === 'block-code-gaming') {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      } else if(text === 'urban uprise') {
+        latest.style.display = 'none';
+        blogs.style.display = 'none';
+        music.style.display = 'none';
+        opportunities.style.display = '';
+        document.querySelectorAll('#opportunities-section .card').forEach(card => {
+          const opp = card.getAttribute('data-opportunity');
+          if(opp === 'urban-uprise') {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      } else {
+        showAll();
+      }
+    });
+  });
+});
+</script>
 </body>
 </html>
