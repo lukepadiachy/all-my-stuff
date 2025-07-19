@@ -146,7 +146,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   tags.forEach(tag => {
     tag.addEventListener('click', function() {
-      if(window.innerWidth <= 900) return showAll();
       tags.forEach(t => t.classList.remove('selected'));
       tag.classList.add('selected');
       const text = tag.textContent.trim().toLowerCase();
