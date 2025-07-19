@@ -10,12 +10,12 @@
     --card-bg-color: rgba(24, 24, 24, 0.6); /* Semi-transparent for glassmorphism */
     --primary-text: #f0f0f0; /* Brighter primary text */
     --secondary-text: #b0b0b0;
-    --accent-color1: #e0405a; /* Pinkish-Red */
-    --accent-color2: #c83e7f; /* Purplish-Pink */
+    --accent-color1: #4CC5DC; /* Blue base */
+    --accent-color2: #7A6CF0; /* Purplish accent */
     --accent-gradient: linear-gradient(135deg, var(--accent-color1) 0%, var(--accent-color2) 100%);
     --border-color: rgba(255, 255, 255, 0.1); /* Lighter border for glass effect */
     --shadow-color: rgba(0, 0, 0, 0.5);
-    --hover-shadow-color: rgba(224, 64, 90, 0.4); /* Shadow using accent color */
+    --hover-shadow-color: rgba(76, 197, 220, 0.4); /* Shadow using accent color */
 }
 
 @keyframes fadeIn {
@@ -46,9 +46,24 @@ footer.fade-in { animation-delay: 0.9s; }
 
 body {
     font-family: 'Mona Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* Animated Gradient Background - Dark base with subtle accent tints */
-    background: linear-gradient(-45deg, var(--bg-color), #050505, #1c0a10, #150813, var(--bg-color)); /* Dark shades tinted with accents */
-    background-size: 400% 400%;
+    /* Black background, gradient mesh underneath via ::before */
+    background: var(--bg-color);
+    position: relative;
+    z-index: 0;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(ellipse at 20% 30%, #4CC5DC 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 70%, #7A6CF0 0%, transparent 60%);
+    opacity: 0.25;
+    mix-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
     animation: subtleGradient 25s ease infinite;
     color: var(--primary-text);
     line-height: 1.7;
@@ -75,7 +90,7 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    color: var(--secondary-text);
+    color: #fff;
     max-width: 600px;
     margin: 15px auto 0; /* Adjusted margin-top for tags */
 }
@@ -284,7 +299,7 @@ footer {
     margin-top: auto;
     padding: 30px 0;
     border-top: 1px solid var(--border-color); /* Use updated border color */
-    color: var(--secondary-text);
+    color: #fff;
     font-size: 0.95em;
 }
 
